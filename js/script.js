@@ -21,4 +21,14 @@ function hideText(){
     document.getElementById('hide').style.display = "none";
 }
 
+// example-5
+function showText(){
+    document.getElementById('s_text').style.display = "block";
+}
+
+// example-6
+function changeText(){
+    document.getElementById('c_text').innerHTML = "consectetur adipisicing elit. Atque, maiores.";
+}
+
 
